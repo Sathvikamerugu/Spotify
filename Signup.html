@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Sign Up Page - CodeCraftedWeb</title>
+
+    <!--========== CSS File ==========-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--========== Favicon ==========-->
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
+
+    <!--========== Remixicon ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--========== Main Content ==========-->
+    <main class="main-content">
+        <!--===== Sign Up Container =====-->
+        <div class="signup-container">
+            <div class="signup-head">
+                <i class="ri-spotify-fill logo" style="font-size: 3rem; display: block; margin: 0 auto;"></i> <!-- Spotify logo -->
+                <h1>Sign up to Spotify</h1>
+            </div>
+
+            <div class="signup-options">
+                <div class="google">
+                    <img src="images/google.webp" alt="google">
+                    <h3>Sign up with Google</h3>
+                </div>
+
+                <div class="facebook">
+                    <img src="images/facebook.svg" alt="facebook">
+                    <h3>Sign up with Facebook</h3>
+                </div>
+
+                <div class="apple">
+                    <img src="images/apple.png" alt="apple">
+                    <h3>Sign up with Apple</h3>
+                </div>
+            </div>
+
+            <div class="signup-content">
+                <div class="email-input-box">
+                    <label for="email" class="email-label">Email</label>
+                    <input type="email" class="email-input" placeholder="Email" required>
+                </div>
+
+                <div class="username-input-box">
+                    <label for="username" class="username-label">Username</label>
+                    <input type="text" class="username-input" placeholder="Username" required>
+                </div>
+
+                <div class="password-input-box">
+                    <label for="password" class="password-label">Password</label>
+                    <div class="pass-div">
+                        <input type="password" class="password-input" placeholder="Password" required>
+                        <i class="ri-eye-off-line pass-toggle"></i>
+                    </div>
+                </div>
+
+                <div class="confirm-password-input-box">
+                    <label for="confirm-password" class="confirm-password-label">Confirm Password</label>
+                    <div class="pass-div">
+                        <input type="password" class="confirm-password-input" placeholder="Confirm Password" required>
+                        <i class="ri-eye-off-line pass-toggle"></i>
+                    </div>
+                </div>
+
+                <div class="signup-button">
+                    <button type="submit" class="signup-btn">Sign Up</button>
+                </div>
+
+                <div class="already-account">
+                    <span class="already-account-txt">Already have an account? <a href="login.html">Log in</a></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--========== Footer ==========-->
+    <footer class="footer">
+        <span class="footer-txt">This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</span>
+    </footer>
+</body>
+</html>
